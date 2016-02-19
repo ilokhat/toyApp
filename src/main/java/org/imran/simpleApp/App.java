@@ -37,5 +37,6 @@ public class App {
     System.out.println("simple - " + polf);
     pol = factory.createIPolygon(vis.simplify(pol.exteriorLineString()));
     System.out.println("Visval " + pol);
+    System.out.println("3 + 1 = " + (3 + 1));
   }
 }
