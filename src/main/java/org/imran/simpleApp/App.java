@@ -18,7 +18,7 @@ import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
  */
 public class App {
   public static void main(String[] args) throws ParseException {
-    System.out.println("Hello World!");
+    System.out.println("Hello World modified!");
     GeometryEngine.init();
     Logger.getLogger(PolygonSquaring.class).setLevel(Level.ERROR);
     AbstractGeomFactory factory = GeometryEngine.getFactory();
