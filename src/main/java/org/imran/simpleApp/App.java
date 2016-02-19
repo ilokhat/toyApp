@@ -26,7 +26,7 @@ public class App {
 
     IPolygon pol = (IPolygon) WktGeOxygene.makeGeOxygene(poly);
     PolygonSquaring ps = new PolygonSquaring(pol);
-    SquarePolygonLS sq = new SquarePolygonLS(10, 0.15, 7);
+    SquarePolygonLS sq = new SquarePolygonLS(10, 0.10, 8);
     VisvalingamWhyatt vis = new VisvalingamWhyatt(5);
 
     sq.setPolygon(pol);
@@ -38,5 +38,6 @@ public class App {
     pol = factory.createIPolygon(vis.simplify(pol.exteriorLineString()));
     System.out.println("Visval " + pol);
     System.out.println("3 + 1 = " + (3 + 1));
+    System.out.println("1 + 10 = " + (1 + 10));
   }
 }
