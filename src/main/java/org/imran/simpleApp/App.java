@@ -17,6 +17,10 @@ import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
  *
  */
 public class App {
+  public static void doSomething() {
+    System.out.println("el loko");
+  }
+
   public static void main(String[] args) throws ParseException {
     System.out.println("Hello World modified!");
     GeometryEngine.init();
@@ -39,5 +43,6 @@ public class App {
     System.out.println("Visval " + pol);
     System.out.println("3 + 1 = " + (3 + 1));
     System.out.println("1 + 10 = " + (1 + 10));
+    App.doSomething();
   }
 }
