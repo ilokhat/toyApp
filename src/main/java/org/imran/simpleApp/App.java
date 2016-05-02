@@ -13,7 +13,7 @@ import fr.ign.cogit.geoxygene.util.conversion.ParseException;
 import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
 
 /**
- * Hello worldii!
+ * Hello world!
  *
  */
 public class App {
