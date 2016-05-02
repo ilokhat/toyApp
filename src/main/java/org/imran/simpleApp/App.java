@@ -18,7 +18,8 @@ import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
  */
 public class App {
   public static void doSomething() {
-    System.out.println("el loko molo polo");
+    System.out.println("el loko");
+    System.out.println("molo polo");
     int j = 2;
   }
 
