@@ -44,5 +44,24 @@ public class App {
     System.out.println("3 + 1 = " + (3 + 1));
     System.out.println("1 + 10 = " + (1 + 10));
     App.doSomething();
+    poly = "POLYGON((339238.5 7647646.40000000037252903,339247.20000000001164153 7647643.20000000018626451,339251 7647653.59999999962747097,339242.29999999998835847 7647656.79999999981373549,339238.5 7647646.40000000037252903))";
+    pol = (IPolygon) WktGeOxygene.makeGeOxygene(poly);
+    System.out.println(pol.centroid().toGM_Point());
+    poly = "POLYGON((339238.5 7647650.0,339247.20000000001164153 7647650.0,339247.20000000001164153 7647700.0,339238.5 7647650.0))";
+    IPolygon emprise = (IPolygon) WktGeOxygene.makeGeOxygene(poly);
+    System.out.println(emprise);
+    if (emprise.intersects(pol.centroid().toGM_Point())) {
+      System.out.println("pol intersects centroid");
+    }
+    if (emprise.intersectsStrictement(pol.centroid().toGM_Point())) {
+      System.out.println("pol intersect strictement centroid");
+    }
+    if (emprise.contains(pol.centroid().toGM_Point())) {
+      System.out.println("pol contains centroid");
+    }
+    if (emprise.exteriorLineString().intersects(pol.centroid().toGM_Point())) {
+      System.out.println("pol_frontiere intersect centroid");
+    }
+
   }
 }
