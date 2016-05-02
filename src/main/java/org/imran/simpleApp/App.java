@@ -13,12 +13,12 @@ import fr.ign.cogit.geoxygene.util.conversion.ParseException;
 import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
 
 /**
- * Hello world!
+ * Hello worldii!
  *
  */
 public class App {
   public static void doSomething() {
-    System.out.println("el loko");
+    System.out.println("el loko polo");
   }
 
   public static void main(String[] args) throws ParseException {
