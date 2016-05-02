@@ -19,7 +19,7 @@ import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
 public class App {
   public static void doSomething() {
     System.out.println("el loko molo polo");
-    int j = 0;
+    int j = 2;
   }
 
   public static void main(String[] args) throws ParseException {
