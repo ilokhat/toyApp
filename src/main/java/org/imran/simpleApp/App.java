@@ -20,8 +20,8 @@ public class App {
   public static void doSomething() {
     System.out.println("hello el loko");
     System.out.println("molo polo");
-    System.out.println("fetch ?");
-    int j = 11;
+    System.out.println("fetch ? fetched");
+    int j = 12;
   }
 
   public static void main(String[] args) throws ParseException {
