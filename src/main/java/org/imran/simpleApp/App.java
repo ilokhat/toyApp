@@ -18,9 +18,9 @@ import fr.ign.cogit.geoxygene.util.conversion.WktGeOxygene;
  */
 public class App {
   public static void doSomething() {
-    System.out.println("el loko");
+    System.out.println("hello el loko");
     System.out.println("molo polo");
-    int j = 1;
+    int j = 10;
   }
 
   public static void main(String[] args) throws ParseException {
